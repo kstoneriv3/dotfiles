@@ -29,3 +29,7 @@ nnoremap <C-l> <C-w>l
 
 let g:netrw_liststyle = 3
 let g:netrw_banner = 0
+
+" fix broken <C-l> as in
+" https://github.com/christoomey/vim-tmux-navigator/issues/189
+nmap <leader><leader><leader><leader><leader><leader>l <Plug>NetrwRefresh
