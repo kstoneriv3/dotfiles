@@ -34,6 +34,6 @@ let g:netrw_banner = 0
 " https://github.com/christoomey/vim-tmux-navigator/issues/189
 nmap <leader><leader><leader><leader><leader><leader>l <Plug>NetrwRefresh
 
-" open vsp on right
+" open vsp on right and below
 set splitright
 set splitbelow
