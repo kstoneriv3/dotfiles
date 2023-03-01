@@ -36,3 +36,4 @@ nmap <leader><leader><leader><leader><leader><leader>l <Plug>NetrwRefresh
 
 " open vsp on right
 set splitright
+set splitbelow
