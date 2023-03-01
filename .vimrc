@@ -33,3 +33,6 @@ let g:netrw_banner = 0
 " fix broken <C-l> as in
 " https://github.com/christoomey/vim-tmux-navigator/issues/189
 nmap <leader><leader><leader><leader><leader><leader>l <Plug>NetrwRefresh
+
+" open vsp on right
+set splitright
