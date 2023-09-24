@@ -18,7 +18,7 @@ set nofoldenable
 
 " ctags
 " Vim looks for a tags file in present working directory first and up and up until it finds it.
-set tags=./tags;
+" set tags=./tags;
 " Invoke ctags at the present working directory on file write of *.py files
 " autocmd BufWritePost *.py silent! !ctags &
 
