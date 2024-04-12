@@ -1,0 +1,23 @@
+{
+    "workbench.colorTheme": "Default Dark Modern",
+    "github.copilot.advanced": {},
+    "keyboard.dispatch": "keyCode", // https://stackoverflow.com/questions/48369303/use-in-visual-studio-code-vim-extension-caps-instead-of-esc
+    "vim.leader": " ",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+        "before": ["<leader>", "t"],
+        "commands": ["workbench.action.toggleSidebarVisibility"]
+        },
+        {
+        "before": ["<leader>", "f"],
+        "commands": [ "revealInExplorer" ],
+        },
+        {
+        "before": ["<leader>", "r", "f"],
+        "commands": [ "fileutils.renameFile" ]
+        }
+    ],
+    // "terminal.integrated.enableVisualBell": true,
+    // "terminal.integrated.sendKeybindingsToShell": true,  // this causes issue with ctrl + w to get out of terminal
+    "terminal.integrated.defaultProfile.linux": "fish"
+}

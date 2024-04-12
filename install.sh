@@ -9,5 +9,6 @@ fi
 cp .tmux.conf ~/
 cp .vimrc ~/
 cp -r scripts ~/
+cp -r .config ~/
 
 tmux source-file ~/.tmux.conf
