@@ -162,6 +162,11 @@
       "command": "list.select",
       "when": "listFocus && !inputFocus"
     },
+    {
+      "key": "enter",
+      "command": "notebook.cell.edit",
+      "when": "notebookEditorFocused"
+    },
 
     //
     // TERMINAL SHORTCUTS
