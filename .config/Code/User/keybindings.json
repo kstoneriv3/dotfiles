@@ -165,7 +165,7 @@
     {
       "key": "enter",
       "command": "notebook.cell.edit",
-      "when": "notebookEditorFocused"
+      "when": "notebookEditorFocused && !editorTextFocus"
     },
 
     //
